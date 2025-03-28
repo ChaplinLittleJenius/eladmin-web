@@ -51,13 +51,13 @@ export default {
       buttonName: '获取验证码', isDisabled: false, time: 60,
       rules: {
         pass: [
-          { required: true, message: '当前密码不能为空', trigger: 'blur' }
+          // { required: true, message: '当前密码不能为空', trigger: 'blur' }
         ],
         email: [
           { required: true, validator: validMail, trigger: 'blur' }
         ],
         code: [
-          { required: true, message: '验证码不能为空', trigger: 'blur' }
+          // { required: true, message: '验证码不能为空', trigger: 'blur' }
         ]
       }
     }
